@@ -1,0 +1,31 @@
+body{
+	margin: 0px 0px;
+}
+header {
+	height: 100px;
+	background-color: lightgrey;
+}
+
+section.backgroundimage-cnt{
+	height: 450px;
+/*	overflow: hidden;
+*/	/*position: relative;*/
+}
+div.parallax {
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+section.backgroundimage-cnt img{
+	width: 100%;
+	bottom: 0px;
+	position: relative;
+}
+section.about {
+	height: 350px;
+	background-color: grey;
+
+}
